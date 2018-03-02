@@ -16,7 +16,3 @@ class Solution:
             x //= 10
 
         return x == rev_x or x == rev_x // 10
-
-
-s = Solution()
-print(s.isPalindrome(11))
