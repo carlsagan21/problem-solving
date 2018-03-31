@@ -5,6 +5,7 @@ class Solution:
         :type target: int
         :rtype: int
         """
+
         def searchIdx(nums, target, start_idx):
             if not nums:
                 return start_idx

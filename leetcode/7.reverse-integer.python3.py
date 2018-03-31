@@ -4,6 +4,7 @@ class Solution:
         :type x: int
         :rtype: int
         """
+
         def plus_reverse(x):
             tmp = []
             while x > 0:
